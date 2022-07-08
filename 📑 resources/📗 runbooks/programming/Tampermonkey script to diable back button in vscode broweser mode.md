@@ -17,7 +17,7 @@ window.addEventListener('popstate', function (event){
 ```
 
 ```
-// ==UserScript==
+n// ==UserScript==
 // @name         gitpod.io
 // @namespace    http://tampermonkey.net/
 // @version      0.1
