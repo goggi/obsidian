@@ -1,0 +1,3 @@
+https://www.reddit.com/r/linuxquestions/comments/fsygus/amdgpu_radeon_switchable_graphics_screen/
+
+I've found two solutions, but none of them worked. The first one was setting `low` or `high` in `/sys/class/drm/card{0,1}/device/power_dpm_force_performance_level`. Initially when I've tried it, it echoed something like `Invalid argument`, but I can't check it now, because after few reboots it worked, but didn't solved the issue. The second thing I tried was setting `amdgpu.dc=0` in GRUB, but then it was booting to black screen and I couldn't even switch tty.
